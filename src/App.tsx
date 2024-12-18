@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { database } from './lib/firebase';
 import { ref, push } from 'firebase/database';
 import { QuestionCard } from './components/QuestionCard';
@@ -9,6 +9,8 @@ import { Brain } from 'lucide-react';
 import { useQuestionTracking } from './hooks/useQuestionTracking';
 import { Domain } from './types';
 import { AuthScreen } from './components/AuthScreen';
+import { fullscreenUtils } from './utils/fullscreen';
+import { preventCopyPaste } from './utils/fullscreen';
 
 interface UserInfo {
   name: string;
@@ -119,6 +121,32 @@ function App() {
     }
   };
 
+  const handleFullscreenChange = () => {
+    if (!fullscreenUtils.isFullscreen()) {
+      setIsAuthenticated(false);
+      setAccessKey(null);
+      alert('Fullscreen mode exited. You need to login again.');
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', handleFullscreenChange);
+    document.addEventListener('mozfullscreenchange', handleFullscreenChange);
+    document.addEventListener('MSFullscreenChange', handleFullscreenChange);
+    
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+      document.removeEventListener('webkitfullscreenchange', handleFullscreenChange);
+      document.removeEventListener('mozfullscreenchange', handleFullscreenChange);
+      document.removeEventListener('MSFullscreenChange', handleFullscreenChange);
+    };
+  }, []);
+
+  useEffect(() => {
+    preventCopyPaste();
+  }, []);
+
   const handleAuthenticate = (uniqueKey: string) => {
     setIsAuthenticated(true);
     setAccessKey(uniqueKey);
@@ -133,7 +161,7 @@ function App() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-center mb-8">
           <Brain className="w-8 h-8 mr-2 text-blue-500" />
-          <h1 className="text-3xl font-bold">⭐ Mockster ⭐ : Aptitude Training round</h1>
+          <h1 className="text-3xl font-bold">⭐ Mockello ⭐ : Aptitude Training round</h1>
         </div>
 
         {!selectedDomain ? (
