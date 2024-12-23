@@ -202,56 +202,56 @@ export const generalQuestions: Question[] = [
     explanation: 'The sequence is multiplied by 2 at each step. 40 × 2 = 80.',
     difficulty: 'easy'
   },
-  {
-    id: 'g-q21',
-    domain: 'general',
-    subDomain: 'quantitative',
-    question: 'A student scores 90% in 5 subjects, each with a maximum of 100 marks. What is the total score?',
-    options: ['450', '500', '460', '480'],
-    correctAnswer: '450',
-    explanation: 'Total score = 90% of 500 = 450.',
-    difficulty: 'easy'
-  },
-  {
-    id: 'g-q22',
-    domain: 'general',
-    subDomain: 'quantitative',
-    question: 'The sides of a triangle are 3 cm, 4 cm, and 5 cm. What is its area?',
-    options: ['6 cm²', '8 cm²', '10 cm²', '12 cm²'],
-    correctAnswer: '6 cm²',
-    explanation: 'It is a right triangle. Area = 1/2 × base × height = 1/2 × 3 × 4 = 6 cm².',
-    difficulty: 'easy'
-  },
-  {
-    id: 'g-q23',
-    domain: 'general',
-    subDomain: 'quantitative',
-    question: 'If the cost of 12 pens is Rs. 96, what is the cost of 5 pens?',
-    options: ['Rs. 40', 'Rs. 36', 'Rs. 42', 'Rs. 45'],
-    correctAnswer: 'Rs. 40',
-    explanation: 'Cost of one pen = 96/12 = 8. Cost of 5 pens = 8 × 5 = Rs. 40.',
-    difficulty: 'easy'
-  },
-  {
-    id: 'g-q24',
-    domain: 'general',
-    subDomain: 'quantitative',
-    question: 'A man spends 60% of his income and saves Rs. 8000. What is his total income?',
-    options: ['Rs. 20000', 'Rs. 25000', 'Rs. 30000', 'Rs. 22000'],
-    correctAnswer: 'Rs. 20000',
-    explanation: 'Savings = 40% of income. Income = 8000 / 0.4 = Rs. 20000.',
-    difficulty: 'medium'
-  },
-  {
-    id: 'g-q25',
-    domain: 'general',
-    subDomain: 'quantitative',
-    question: 'If the price of an item is increased by 20%, and then decreased by 20%, what is the net percentage change in price?',
-    options: ['4% decrease', '4% increase', '0%', '5% decrease'],
-    correctAnswer: '4% decrease',
-    explanation: 'Net % change = (x + y + xy/100)%. For x = 20 and y = -20, Net change = -4%.',
-    difficulty: 'hard'
-  },
+  // {
+  //   id: 'g-q21',
+  //   domain: 'general',
+  //   subDomain: 'quantitative',
+  //   question: 'A student scores 90% in 5 subjects, each with a maximum of 100 marks. What is the total score?',
+  //   options: ['450', '500', '460', '480'],
+  //   correctAnswer: '450',
+  //   explanation: 'Total score = 90% of 500 = 450.',
+  //   difficulty: 'easy'
+  // },
+  // {
+  //   id: 'g-q22',
+  //   domain: 'general',
+  //   subDomain: 'quantitative',
+  //   question: 'The sides of a triangle are 3 cm, 4 cm, and 5 cm. What is its area?',
+  //   options: ['6 cm²', '8 cm²', '10 cm²', '12 cm²'],
+  //   correctAnswer: '6 cm²',
+  //   explanation: 'It is a right triangle. Area = 1/2 × base × height = 1/2 × 3 × 4 = 6 cm².',
+  //   difficulty: 'easy'
+  // },
+  // {
+  //   id: 'g-q23',
+  //   domain: 'general',
+  //   subDomain: 'quantitative',
+  //   question: 'If the cost of 12 pens is Rs. 96, what is the cost of 5 pens?',
+  //   options: ['Rs. 40', 'Rs. 36', 'Rs. 42', 'Rs. 45'],
+  //   correctAnswer: 'Rs. 40',
+  //   explanation: 'Cost of one pen = 96/12 = 8. Cost of 5 pens = 8 × 5 = Rs. 40.',
+  //   difficulty: 'easy'
+  // },
+  // {
+  //   id: 'g-q24',
+  //   domain: 'general',
+  //   subDomain: 'quantitative',
+  //   question: 'A man spends 60% of his income and saves Rs. 8000. What is his total income?',
+  //   options: ['Rs. 20000', 'Rs. 25000', 'Rs. 30000', 'Rs. 22000'],
+  //   correctAnswer: 'Rs. 20000',
+  //   explanation: 'Savings = 40% of income. Income = 8000 / 0.4 = Rs. 20000.',
+  //   difficulty: 'medium'
+  // },
+  // {
+  //   id: 'g-q25',
+  //   domain: 'general',
+  //   subDomain: 'quantitative',
+  //   question: 'If the price of an item is increased by 20%, and then decreased by 20%, what is the net percentage change in price?',
+  //   options: ['4% decrease', '4% increase', '0%', '5% decrease'],
+  //   correctAnswer: '4% decrease',
+  //   explanation: 'Net % change = (x + y + xy/100)%. For x = 20 and y = -20, Net change = -4%.',
+  //   difficulty: 'hard'
+  // },
 
   // Logical Reasoning 
   {
@@ -540,41 +540,41 @@ export const generalQuestions: Question[] = [
       explanation: '"Quickly" describes the verb "runs," so it is an adverb.',
       difficulty: 'easy'
   },
-  {
-      id: 'g-v14',
-      domain: 'general',
-      subDomain: 'verbal',
-      question: 'Choose the word that is opposite in meaning to "PERNICIOUS":',
-      options: ['Beneficial', 'Harmful', 'Deadly', 'Toxic'],
-      correctAnswer: 'Beneficial',
-      explanation: 'Pernicious means harmful, so its opposite is beneficial.',
-      difficulty: 'medium'
-  },
-  {
-      id: 'g-v15',
-      domain: 'general',
-      subDomain: 'verbal',
-      question: 'Choose the grammatically correct sentence:',
-      options: [
-        'I am knowing the answer.',
-        'I knows the answer.',
-        'I know the answer.',
-        'I knowing the answer.'
-      ],
-      correctAnswer: 'I know the answer.',
-      explanation: 'The sentence is correct in present simple tense: "I know the answer."',
-      difficulty: 'easy'
-  },
-  {
-      id: 'g-v16',
-      domain: 'general',
-      subDomain: 'verbal',
-      question: 'Fill in the blank: "The committee ___ to meet again next week."',
-      options: ['decides', 'decided', 'decide', 'decision'],
-      correctAnswer: 'decides',
-      explanation: 'The subject "committee" is singular, so the verb should be "decides."',
-      difficulty: 'easy'
-  }
+  // {
+  //     id: 'g-v14',
+  //     domain: 'general',
+  //     subDomain: 'verbal',
+  //     question: 'Choose the word that is opposite in meaning to "PERNICIOUS":',
+  //     options: ['Beneficial', 'Harmful', 'Deadly', 'Toxic'],
+  //     correctAnswer: 'Beneficial',
+  //     explanation: 'Pernicious means harmful, so its opposite is beneficial.',
+  //     difficulty: 'medium'
+  // },
+  // {
+  //     id: 'g-v15',
+  //     domain: 'general',
+  //     subDomain: 'verbal',
+  //     question: 'Choose the grammatically correct sentence:',
+  //     options: [
+  //       'I am knowing the answer.',
+  //       'I knows the answer.',
+  //       'I know the answer.',
+  //       'I knowing the answer.'
+  //     ],
+  //     correctAnswer: 'I know the answer.',
+  //     explanation: 'The sentence is correct in present simple tense: "I know the answer."',
+  //     difficulty: 'easy'
+  // },
+  // {
+  //     id: 'g-v16',
+  //     domain: 'general',
+  //     subDomain: 'verbal',
+  //     question: 'Fill in the blank: "The committee ___ to meet again next week."',
+  //     options: ['decides', 'decided', 'decide', 'decision'],
+  //     correctAnswer: 'decides',
+  //     explanation: 'The subject "committee" is singular, so the verb should be "decides."',
+  //     difficulty: 'easy'
+  // }
   
   
 ];
