@@ -289,173 +289,173 @@ export const automobileQuestions: Question[] = [
         "explanation": "Overdrive reduces engine RPM at higher speeds, improving fuel efficiency and reducing wear.",
         "difficulty": "Medium"
     },
-    {
-        "id": "Auto 20",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "Which safety feature in automobiles prevents passengers from being thrown forward in a collision?",
-        "options": [
-            "Airbags",
-            "Seat belts",
-            "Crumple zones",
-            "Anti-lock braking system"
-        ],
-        "correctAnswer": "Seat belts",
-        "explanation": "Seat belts restrain passengers, preventing them from being thrown forward during a collision.",
-        "difficulty": "Easy"
-    },
+    // {
+    //     "id": "Auto 20",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "Which safety feature in automobiles prevents passengers from being thrown forward in a collision?",
+    //     "options": [
+    //         "Airbags",
+    //         "Seat belts",
+    //         "Crumple zones",
+    //         "Anti-lock braking system"
+    //     ],
+    //     "correctAnswer": "Seat belts",
+    //     "explanation": "Seat belts restrain passengers, preventing them from being thrown forward during a collision.",
+    //     "difficulty": "Easy"
+    // },
 
 
-    {
-        "id": "Auto 21",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What is the main purpose of an anti-lock braking system (ABS)?",
-        "options": [
-            "To increase braking force",
-            "To prevent wheel lock-up during braking",
-            "To reduce brake wear",
-            "To improve fuel efficiency"
-        ],
-        "correctAnswer": "To prevent wheel lock-up during braking",
-        "explanation": "ABS prevents wheels from locking during braking, maintaining steering control and reducing skidding.",
-        "difficulty": "Medium"
-    },
-    {
-        "id": "Auto 22",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "Which type of engine has no intake and exhaust valves but uses ports for air-fuel mixture and exhaust flow?",
-        "options": [
-            "Diesel engine",
-            "Rotary engine",
-            "Inline engine",
-            "V-engine"
-        ],
-        "correctAnswer": "Rotary engine",
-        "explanation": "Rotary engines use ports instead of valves for air-fuel intake and exhaust, resulting in smooth operation.",
-        "difficulty": "Medium"
-    },
-    {
-        "id": "Auto 23",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What type of suspension system is characterized by springs and dampers combined in a single unit?",
-        "options": [
-            "Leaf spring suspension",
-            "Air suspension",
-            "MacPherson strut",
-            "Double-wishbone suspension"
-        ],
-        "correctAnswer": "MacPherson strut",
-        "explanation": "MacPherson strut integrates springs and dampers, reducing weight and complexity.",
-        "difficulty": "Easy"
-    },
-    {
-        "id": "Auto 24",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What is the primary function of a catalytic converter in a vehicle?",
-        "options": [
-            "To increase engine power",
-            "To reduce harmful exhaust emissions",
-            "To improve fuel efficiency",
-            "To regulate engine temperature"
-        ],
-        "correctAnswer": "To reduce harmful exhaust emissions",
-        "explanation": "Catalytic converters chemically reduce harmful gases like CO, NOx, and hydrocarbons in the exhaust system.",
-        "difficulty": "Medium"
-    },
-    {
-        "id": "Auto 25",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "Which drivetrain layout is characterized by the engine at the front and power delivered to the rear wheels?",
-        "options": [
-            "Front-wheel drive (FWD)",
-            "Rear-wheel drive (RWD)",
-            "All-wheel drive (AWD)",
-            "Four-wheel drive (4WD)"
-        ],
-        "correctAnswer": "Rear-wheel drive (RWD)",
-        "explanation": "RWD places the engine at the front and drives the rear wheels, offering better balance and handling.",
-        "difficulty": "Medium"
-    },
+    // {
+    //     "id": "Auto 21",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What is the main purpose of an anti-lock braking system (ABS)?",
+    //     "options": [
+    //         "To increase braking force",
+    //         "To prevent wheel lock-up during braking",
+    //         "To reduce brake wear",
+    //         "To improve fuel efficiency"
+    //     ],
+    //     "correctAnswer": "To prevent wheel lock-up during braking",
+    //     "explanation": "ABS prevents wheels from locking during braking, maintaining steering control and reducing skidding.",
+    //     "difficulty": "Medium"
+    // },
+    // {
+    //     "id": "Auto 22",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "Which type of engine has no intake and exhaust valves but uses ports for air-fuel mixture and exhaust flow?",
+    //     "options": [
+    //         "Diesel engine",
+    //         "Rotary engine",
+    //         "Inline engine",
+    //         "V-engine"
+    //     ],
+    //     "correctAnswer": "Rotary engine",
+    //     "explanation": "Rotary engines use ports instead of valves for air-fuel intake and exhaust, resulting in smooth operation.",
+    //     "difficulty": "Medium"
+    // },
+    // {
+    //     "id": "Auto 23",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What type of suspension system is characterized by springs and dampers combined in a single unit?",
+    //     "options": [
+    //         "Leaf spring suspension",
+    //         "Air suspension",
+    //         "MacPherson strut",
+    //         "Double-wishbone suspension"
+    //     ],
+    //     "correctAnswer": "MacPherson strut",
+    //     "explanation": "MacPherson strut integrates springs and dampers, reducing weight and complexity.",
+    //     "difficulty": "Easy"
+    // },
+    // {
+    //     "id": "Auto 24",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What is the primary function of a catalytic converter in a vehicle?",
+    //     "options": [
+    //         "To increase engine power",
+    //         "To reduce harmful exhaust emissions",
+    //         "To improve fuel efficiency",
+    //         "To regulate engine temperature"
+    //     ],
+    //     "correctAnswer": "To reduce harmful exhaust emissions",
+    //     "explanation": "Catalytic converters chemically reduce harmful gases like CO, NOx, and hydrocarbons in the exhaust system.",
+    //     "difficulty": "Medium"
+    // },
+    // {
+    //     "id": "Auto 25",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "Which drivetrain layout is characterized by the engine at the front and power delivered to the rear wheels?",
+    //     "options": [
+    //         "Front-wheel drive (FWD)",
+    //         "Rear-wheel drive (RWD)",
+    //         "All-wheel drive (AWD)",
+    //         "Four-wheel drive (4WD)"
+    //     ],
+    //     "correctAnswer": "Rear-wheel drive (RWD)",
+    //     "explanation": "RWD places the engine at the front and drives the rear wheels, offering better balance and handling.",
+    //     "difficulty": "Medium"
+    // },
 
-    {
-        "id": "Auto 26",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What is the primary function of a power steering system?",
-        "options": [
-            "To improve braking performance",
-            "To assist in steering the vehicle",
-            "To increase engine power",
-            "To control suspension stiffness"
-        ],
-        "correctAnswer": "To assist in steering the vehicle",
-        "explanation": "Power steering reduces the effort required to steer the vehicle by using hydraulic or electric systems.",
-        "difficulty": "Easy"
-    },
-    {
-        "id": "Auto 27",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What is the purpose of a timing belt in an engine?",
-        "options": [
-            "To regulate the fuel injection",
-            "To connect the crankshaft and camshaft",
-            "To reduce engine noise",
-            "To control the exhaust system"
-        ],
-        "correctAnswer": "To connect the crankshaft and camshaft",
-        "explanation": "The timing belt synchronizes the rotation of the crankshaft and camshaft to ensure the engine’s valves open and close at the correct times.",
-        "difficulty": "Medium"
-    },
-    {
-        "id": "Auto 28",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What is the primary function of a shock absorber in a vehicle?",
-        "options": [
-            "To prevent the vehicle from skidding",
-            "To support the weight of the vehicle",
-            "To absorb shocks and reduce vibrations",
-            "To enhance engine power"
-        ],
-        "correctAnswer": "To absorb shocks and reduce vibrations",
-        "explanation": "Shock absorbers help smooth out the ride by absorbing bumps and vibrations from the road.",
-        "difficulty": "Medium"
-    },
-    {
-        "id": "Auto 29",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "What type of engine has its cylinders arranged in a straight line?",
-        "options": [
-            "V-engine",
-            "Inline engine",
-            "Boxer engine",
-            "Rotary engine"
-        ],
-        "correctAnswer": "Inline engine",
-        "explanation": "Inline engines have cylinders arranged in a straight line, offering simplicity and efficient use of space.",
-        "difficulty": "Easy"
-    },
-    {
-        "id": "Auto 30",
-        "domain": "Automobile",
-        "subDomain": "Core",
-        "question": "Which of the following is responsible for reducing the emission of nitrogen oxides in a vehicle's exhaust system?",
-        "options": [
-            "Oxygen sensor",
-            "Exhaust gas recirculation (EGR)",
-            "Catalytic converter",
-            "Fuel injector"
-        ],
-        "correctAnswer": "Exhaust gas recirculation (EGR)",
-        "explanation": "The EGR system recirculates a portion of the exhaust gases into the intake to lower the combustion temperature, reducing nitrogen oxide emissions.",
-        "difficulty": "Medium"
-    },
+    // {
+    //     "id": "Auto 26",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What is the primary function of a power steering system?",
+    //     "options": [
+    //         "To improve braking performance",
+    //         "To assist in steering the vehicle",
+    //         "To increase engine power",
+    //         "To control suspension stiffness"
+    //     ],
+    //     "correctAnswer": "To assist in steering the vehicle",
+    //     "explanation": "Power steering reduces the effort required to steer the vehicle by using hydraulic or electric systems.",
+    //     "difficulty": "Easy"
+    // },
+    // {
+    //     "id": "Auto 27",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What is the purpose of a timing belt in an engine?",
+    //     "options": [
+    //         "To regulate the fuel injection",
+    //         "To connect the crankshaft and camshaft",
+    //         "To reduce engine noise",
+    //         "To control the exhaust system"
+    //     ],
+    //     "correctAnswer": "To connect the crankshaft and camshaft",
+    //     "explanation": "The timing belt synchronizes the rotation of the crankshaft and camshaft to ensure the engine’s valves open and close at the correct times.",
+    //     "difficulty": "Medium"
+    // },
+    // {
+    //     "id": "Auto 28",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What is the primary function of a shock absorber in a vehicle?",
+    //     "options": [
+    //         "To prevent the vehicle from skidding",
+    //         "To support the weight of the vehicle",
+    //         "To absorb shocks and reduce vibrations",
+    //         "To enhance engine power"
+    //     ],
+    //     "correctAnswer": "To absorb shocks and reduce vibrations",
+    //     "explanation": "Shock absorbers help smooth out the ride by absorbing bumps and vibrations from the road.",
+    //     "difficulty": "Medium"
+    // },
+    // {
+    //     "id": "Auto 29",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "What type of engine has its cylinders arranged in a straight line?",
+    //     "options": [
+    //         "V-engine",
+    //         "Inline engine",
+    //         "Boxer engine",
+    //         "Rotary engine"
+    //     ],
+    //     "correctAnswer": "Inline engine",
+    //     "explanation": "Inline engines have cylinders arranged in a straight line, offering simplicity and efficient use of space.",
+    //     "difficulty": "Easy"
+    // },
+    // {
+    //     "id": "Auto 30",
+    //     "domain": "Automobile",
+    //     "subDomain": "Core",
+    //     "question": "Which of the following is responsible for reducing the emission of nitrogen oxides in a vehicle's exhaust system?",
+    //     "options": [
+    //         "Oxygen sensor",
+    //         "Exhaust gas recirculation (EGR)",
+    //         "Catalytic converter",
+    //         "Fuel injector"
+    //     ],
+    //     "correctAnswer": "Exhaust gas recirculation (EGR)",
+    //     "explanation": "The EGR system recirculates a portion of the exhaust gases into the intake to lower the combustion temperature, reducing nitrogen oxide emissions.",
+    //     "difficulty": "Medium"
+    // },
 
 ];
